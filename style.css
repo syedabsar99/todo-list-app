@@ -206,3 +206,36 @@ ul li input {
   font-size: 17px;
   width: 70%;
 }
+
+@media (max-width: 500px) {
+  .todo-app {
+    margin: 30px auto 20px;
+    padding: 24px 16px 40px;
+    border-radius: 12px;
+  }
+  .todo-app h2 {
+    font-size: 22px;
+  }
+  .row {
+    padding-left: 14px;
+  }
+  .row input {
+    font-size: 13px;
+    padding: 8px;
+  }
+  button#add-btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+  ul li {
+    font-size: 15px;
+    padding: 10px 45px 10px 44px;
+    word-break: break-word;
+  }
+  ul li::before {
+    top: 9px;
+    left: 6px;
+    width: 24px;
+    height: 24px;
+  }
+}
